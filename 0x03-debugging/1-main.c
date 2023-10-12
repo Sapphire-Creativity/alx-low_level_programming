@@ -13,9 +13,11 @@ int main(void)
 
 	i = 0;
 
-	/* while (i < 10)
+	/*
+	 * Loop would have cause an Infinite loop
+	 * while (i < 10)
 	 * {
-	 * 	putchar(i);
+	 *	putchar(i);
 	 * }
 	 */
 
