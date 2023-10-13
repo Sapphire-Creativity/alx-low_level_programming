@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * null - a function that checks for a digit (0 through).
+ * mul - a function that checks for a digit (0 through).
  * @a: a - variable
  * @b: b - variable
  * Return: Always 0
