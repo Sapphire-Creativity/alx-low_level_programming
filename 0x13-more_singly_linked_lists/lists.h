@@ -5,8 +5,8 @@
 #include <stdlib.h>
 
 
-/*
- * struct listint_t - Self referencial structure 
+/**
+ * struct listint_s - Self referencial structure
  * for creating nodes of a singly lined list
  *
  * @n: integer data
@@ -17,6 +17,7 @@ typedef struct listint_s
 {
 	int n;
 	struct listint_s *next;
-}listint_t;
+} listint_t;
+
 size_t print_listint(const listint_t *h);
 #endif
